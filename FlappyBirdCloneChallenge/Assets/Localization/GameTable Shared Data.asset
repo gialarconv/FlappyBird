@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GameTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GameTable
+  m_TableCollectionNameGuidString: 7bc5ed576a58ef44f8cd0ebf30d7f13b
+  m_Entries:
+  - m_Id: 51172274176
+    m_Key: score_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16987591471104
+    m_Key: quit_game_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17047884591104
+    m_Key: play_game_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33233275908096
+    m_Key: highest_score_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101549134770176
+    m_Key: game_over_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101944804438016
+    m_Key: resume_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101971853504512
+    m_Key: end_game_Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107088153604096
+    m_Key: final_score_Key
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 524563065883590709
+  references:
+    version: 2
+    RefIds:
+    - rid: 524563065883590709
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678923484292
